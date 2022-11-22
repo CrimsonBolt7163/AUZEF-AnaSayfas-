@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{scroll-behavior: smooth;}
+header{position: sticky; background-color: white; top: 0; z-index: 100;}
+
+.col h2{font-size: 1.3em; font-weight: normal;}
+.col h1{font-size: 1.6em; }
+.logoYazi{padding-top: 15px;}
+.socialLogo a:first-child{padding-left: 14px;}
+
+.socialLogo a{
+    padding-right: 14px;
+    color: #524c4c;
+}
+
+.socialLogo{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid rgb(128, 128, 128, .5);
+    background-color: #f1f1f1;
+    float: right;
+}
+
+.searchLogo{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 7px;
+    border: 1px solid rgb(128, 128, 128, .5);
+    background-color: #f1f1f1;
+    float: right;
+}
+
+.logoKapi{
+    width: max-content;
+    float: right;
+}
+
+.bosluk{float: right;}
+#menu{background-color: #878888;}
+.nav-item {padding: 0 3vw !important;}
+
+.navbar-nav li:hover{
+    transition: all .4s ease-in;
+    background-color: #524c4c;
+}
+
+#carouselIndicators{
+    margin: 0 auto;
+    padding-top: 20px;
+    object-fit: cover;
+    object-position: center;
+    width: 160vh;   
+    height: 400px;
+    overflow: hidden;
+}
+
+.linkBar{
+    text-align: center;
+    background-color: #66acb9;
+    width: 160vh;
+    line-height: 60px;
+}
+
+.linkBar i, .linkBar h4{color: white;}
+.linkBar a{text-decoration: none;}
+
+.linkBar .col:hover{
+    transition: all .4s ease-in;
+    background-color: #524c4c;
+}
+
+article{
+    width: 70%;
+    height: max-content;
+    float: left;
+}
+
+article #hr1{width: 125.5vh;}
+article a{text-decoration: none; color: black;}
+.duyurular{border: 1px solid rgb(0, 0, 0, .1);}
+
+article .row{
+    display: block;
+    justify-content: space-between;
+    width: 120vh;
+    padding: 15px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0, .1);
+}
+
+strong{border-left: 3px solid;}
+
+aside{
+    width: 30%;
+    float: right;
+    padding-left: 10px;
+}
+
+.HEimg{
+    display: block;
+    width: 90%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url(../Assets/ogrenci_sistemleri.jpg);
+    margin: 0 auto;
+}
+
+.HEimg2{
+    display: block;
+    width: 90%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-image: url(../Assets/ikinci_universite_637006028666221786.jpg);
+    margin: 0 auto;
+}
+
+.imgWrt{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    opacity: 70%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: -31px;
+    border: 1px solid white;
+}
+
+article #lastch{text-align: center;}
+
+article #lastch h5{
+    margin-top: -30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+article #lastch #st{width: 350px; float: left;}
+article #lastch #lst{width: 350px; float: right;}
+article #lastch #st, #lst{border-top: 2px solid rgb(0, 0, 0, .6);}
+
+.haberler{
+    width: 100%;
+}
+
+.altHaberler{
+    display: block;
+    justify-content: space-between;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0 1em;
+    width: calc(100% / 3);
+}
+
+.card-body a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-img-top{cursor: pointer;}
+
+.secHaber #lastch{text-align: center;}
+
+.secHaber #lastch h5{
+    margin-top: -30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.secHaber #lastch #st{width: 550px; float: left;}
+.secHaber #lastch #lst{width: 550px; float: right;}
+.secHaber #lastch #st, #lst{border-top: 2px solid rgb(0, 0, 0, .6);}
+
+.logolar{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    cursor: pointer;
+}
+
+.logoUni{
+    border: 1px solid;
+    width: 125px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.logoUni:hover{
+    background-color: white ;
+    transition: all .4s ease-in;
+}
+
+.upBtn{
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    right:20px;
+    background-color: rgb(0, 0, 0, .4);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 6px;
+}
+.upBtn a{color: white;}
+
+.upBtn:hover{
+    transition: all .3s ease-in;
+    background-color: rgb(0, 0, 0, .8);
+}
+.upBtn a:hover{color: white;}
+
+.sorBtn{
+    position: fixed;
+    bottom: 10px;
+    right: 50px; 
+}
+
+.sorBtn img{-webkit-transition: width .3s ease-in;}
+
+.sorBtn img:hover{
+    width: 160px;
+    transition: width .3s ease-out;
+}
+
+@media screen and (max-width : 991px) {
+    .denemelik{
+        display: none;
+    }
+    .logoYazi h1{
+        font-size: 2vmin;
+    }
+    .logoYazi h2{
+        font-size: 1.5vmin;
+    }
+    .anaLogo img{
+        width: 10vmin;
+    }
+    .linkBar h4{
+        display: none;
+    }
+}
